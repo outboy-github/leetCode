@@ -18,9 +18,10 @@ public class LeetCode_06_ZigZagConversion {
 		int length = s.length();
 		int i = 0;//控制行
 		int j = 0;
-		boolean flag = true;
+	
 		
 		for(i = 0; i < nRows; i++ ){
+			boolean flag = true;
 			j = i;
 			while(j < length){
 				convertString.append(s.charAt(j));
